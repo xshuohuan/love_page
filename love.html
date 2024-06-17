@@ -110,7 +110,7 @@
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-        BirthDay = new Date("7/03/2024 22:27:00");//这个日期是可以修改的
+        BirthDay = new Date("3/7/2024 22:27:00");//这个日期是可以修改的
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
@@ -134,7 +134,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             //想说的话
-            S.UI.simulate("李半月|快醒醒|太阳烧屁屁了|你怎么不理我|到现在不回我消息|不会还没有起来吧|我又梦到你了|我们会一直在一起！|你不能和别人在一起|现在该起床啦！|你看看现在都几点了！|#countdown 3|#time");
+            S.UI.simulate("李半月，起床啦！|太阳烧屁屁啦|不能不回我消息|不能不理我|要对我最好|我以后要娶你！|现在应该起来主动来关心我啦|你看看现在几点了|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
